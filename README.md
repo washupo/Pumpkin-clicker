@@ -1,7 +1,12 @@
-![Banner -CookieClicker](/images/CookieClicker%20-Banner.png)
+![Banner -CookieClicker](/image/CookieClicker%20-Banner.png)
 # Preview
 
-- [Live demo](https://yvessoham.github.io/Javascript/)
+- [Live demo](https://washupo.github.io/pumpkin-clicker/)
+
+# Screenshots
+![Screenshot 1 Pumpkin clicker](/image/Screenshot1.png)
+![Screenshot 2 Pumpkin clicker](/image/Screenshot2.png)
+
 # Instructions
 To improve our JavaScript skills, we have 5 days to create a cookie clicker game as a team. 
 - [Instructions links](https://github.com/becodeorg/Swartz-8/blob/main/2.The-Hill/1.Javascript/cookieClicker.md)
@@ -12,13 +17,13 @@ To improve our JavaScript skills, we have 5 days to create a cookie clicker game
 - Vite
 
 # Wireframe - First draft
-I want to make a minimalist yet beautiful layout inspired by the [original game](https://orteil.dashnet.org/cookieclicker/) to offer a user-friendly design experience. 
+We want to make a minimalist yet beautiful layout inspired by the [original game](https://orteil.dashnet.org/cookieclicker/) to offer a user-friendly design experience. 
 
-I wanted to simplify the layout with the cookie button and the point on one side, and all the features on the other, so we can have a clear view and not to much information.
+We wanted to simplify the layout with the cookie button and the point on one side, and all the features on the other, so we can have a clear view and not to much information.
 
 
-Of course, I choose colors that remind us of a cookie and we will try to find fonts and animation that suit that theme. 
-![Banner -CookieClicker](/images/CookieClicker%20-Wireframe.png)
+Of course, we choose colors that remind us of a cookie and we will try to find fonts and animation that suit that theme. 
+![Banner -CookieClicker](/image/CookieClicker%20-Wireframe.png)
  
 # Pending things to do
 - Javascript
@@ -58,11 +63,7 @@ To update your local git directory:
 4. `git push` 
     Uploads all local branch commits to the remote.
 
-
-# Contributor
-
-- [yvessoham](https://github.com/yvessoham)
-
 # Credits
 - [Background video](https://pixabay.com/fr/videos/citrouilles-for%C3%AAt-la-terreur-fonc%C3%A9-181881/) - Pixabay
 - [Pumpkin button](https://pixabay.com/fr/illustrations/ai-g%C3%A9n%C3%A9r%C3%A9-biscuit-orange-chocolat-8170183/) - Pixabay
+- [Music]() -

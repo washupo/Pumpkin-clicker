@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Eater&family=Luckiest+Guy&family=Montserrat:wght@800;900&family=Nosifer&family=Poppins:ital,wght@0,300;0,800;0,900;1,800&family=Raleway:wght@700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Creepster&family=Merriweather:wght@300&family=Redressed&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Eater&family=Luckiest+Guy&family=Montserrat:wght@800;900&family=Nosifer&family=Poppins:ital,wght@0,300;0,800;0,900;1,800&family=Raleway:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Creepster&family=Merriweather:wght@300&family=Redressed&display=swap');
 
-* {
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -23,8 +24,8 @@
   width: 100vw;
   height: 100%;
   background-position: center center;
-  object-fit: cover;
-  z-index: -1;
+  object-fit: cover; 
+  z-index: -1; 
 }
 
 .grid-container {
@@ -40,19 +41,18 @@
 /* ----------------------Audio-----------------*/
 audio {
   transform: scale(0.6);
-  transform-origin: top left;
-  position: absolute;
-  left: 10px;
-  top: 10px;
+  transform-origin: top left; 
+  position: absolute; 
+  left: 10px; 
+  top: 10px; 
 }
 
 audio::-webkit-media-controls {
-  background-color: rgb(76, 77, 89);
-  color: #695757;
+  background-color: rgb(76, 77, 89); /* Changez cette couleur en fonction de votre préférence */
+  color: #695757; /* Couleur du texte à l'intérieur des contrôles */
 }
-audio::-webkit-media-controls-play-button,
-audio::-webkit-media-controls-mute-button {
-  background-color: rgb(225, 216, 210);
+audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-mute-button {
+    background-color: rgb(225, 216, 210); /* Changez cette couleur en fonction de votre préférence */
 }
 
 /*-----------------------------------Modal------------------------------------*/
@@ -82,10 +82,11 @@ h3 {
   font-family: poppins;
 }
 
-#halloweengif {
 
-  width: 20%;
-  margin: auto;
+#halloweengif {
+  height: auto;
+  width: 80%;
+  margin-right: auto;
 }
 
 .modal {
@@ -103,6 +104,7 @@ h3 {
   background-color: grey;
   border: 1px solid black;
   border-radius: 15px;
+  
 }
 
 .modal .flex {
@@ -122,7 +124,7 @@ h3 {
   font-size: 1rem;
   color: black;
   margin: 0.4rem 0 0.2rem;
-  font-family: "poppins";
+  font-family: 'poppins';
   line-height: 150%;
   text-align: justify;
 }
@@ -143,7 +145,7 @@ h3 {
 
 .btn-close {
   position: absolute;
-  top: 10px;
+  top:10px;
   right: 10px;
   background-color: transparent;
   background-image: url(image/Pipistrello.png);
@@ -178,7 +180,7 @@ h1 {
   text-align: center;
   padding: 1em;
   background-color: rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   font-size: 7vw;
@@ -490,7 +492,7 @@ div > span {
 }
 
 @keyframes rotates {
-  from {
+  from{
     transform: rotate(0);
   }
   to {
@@ -509,7 +511,7 @@ div > span {
 
 .circle {
   position: absolute;
-  left: -0.5%;
+  left: -.5%;
   top: -6.5%;
   animation: rotates 100s linear infinite;
   transform: translate(-50%, -50%);
@@ -517,7 +519,7 @@ div > span {
   height: var(--size);
   filter: url(#wavy) blur(1px);
   z-index: -1;
-  opacity: 0;
+  opacity: 0; 
   transition: opacity 0.3s;
 }
 
@@ -525,8 +527,7 @@ div > span {
   opacity: 1;
 }
 
-.circle:before,
-.circle:after {
+.circle:before, .circle:after {
   content: "";
   position: absolute;
   top: var(--s);
@@ -539,13 +540,12 @@ div > span {
 
 .circle:before {
   box-shadow: 0 0 var(--boxShadow) #0f0, inset 0 0 var(--boxShadow) #0f0;
-  -webkit-box-reflect: below 10px
-    linear-gradient(transparent, transparent, #0002);
+  -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0002);
   animation: move 5s linear infinite;
 }
 
 .circle:after {
-  box-shadow: 0 0 calc(var(--bor) / 2) #fff, inset 0 0 var(--bor) #fff;
+  box-shadow: 0 0 calc(var(--bor)/2) #fff, inset 0 0 var(--bor) #fff;
 }
 
 @keyframes move {
@@ -579,7 +579,8 @@ div > span {
 svg {
   width: 0;
   height: 0;
-}
+} 
+
 
 /*------------------------------------------------------------------------------------*/
 
@@ -593,7 +594,7 @@ h2 {
   grid-area: cookie2;
   text-align: center;
   font-family: nosifer;
-  font-size: 8vw;
+  font-size: 8vW;
   /*font-size: clamp(32px,2.5vw + 1rem, 64px);*/
   line-height: 75%;
   padding: 0.5em;
@@ -620,13 +621,12 @@ h2 {
 button {
   border: 1px solid black;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   padding: 0.5em;
   background: linear-gradient(-110deg, rgb(241, 158, 44), rgb(208, 84, 10));
   font-family: "Eater", serif;
   font-size: 4vw;
-  /*font-size: clamp(16px,1vw + 1rem, 48px);*/
+  /*font-size: clamp(16px,1vw + 1rem, 48px);*/ 
   cursor: pointer;
   transition: all 200ms;
   line-height: 185%;
@@ -640,9 +640,9 @@ button:hover {
   font-family: nosifer;
 }
 .cout {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-size: 3vw;
-  font-weight: light;
+  font-weight:light;
 }
 
 [disabled] {
@@ -658,12 +658,10 @@ button:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 9999; 
   display: flex;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 #halloween {
@@ -677,51 +675,53 @@ button:hover {
 }
 
 #link {
-  font-size: 1.25em;
+font-size: 1.25em;  
 }
 
 #vampire {
-  height: 7.5vh;
+  max-height: 7.5vh;
+  width: auto;
 }
 
 @keyframes blood {
   0% {
-    transform: scaleY(1);
+      transform: scaleY(1);
   }
   50% {
-    transform: scaleY(1.5);
+      transform: scaleY(1.5);
   }
   100% {
-    transform: scaleY(1);
+      transform: scaleY(1);
   }
 }
 
 @keyframes move-down {
   0% {
-    transform: translateY(0);
+      transform: translateY(0);
   }
   50% {
-    transform: translateY(20px);
+      transform: translateY(20px);
   }
   100% {
-    transform: translateY(0);
+      transform: translateY(0);
   }
 }
 
 a {
   text-decoration: none;
   color: #591212;
+  font-size: 1.5em;
 }
 
-.death {
+.death{
   background-repeat: no-repeat;
-  height: 1em;
+  height: 1.5em;
 }
 
 /*---------------------------MediaQuery (Desktop)---------------------------------- */
 
 @media (min-width: 426px) and (max-width: 811px) {
-  .img {
+  .img{
     width: 65%;
   }
 
@@ -735,24 +735,24 @@ a {
     --size: 30vw;
     --s: calc(var(--size) / 10);
     --bor: calc(var(--size) / 5);
-  }
+    }
 
-  .circle {
-    top: -30%;
-  }
+    .circle {
+      top: -30%;
+    }
 
-  .parent {
-    overflow: visible;
-  }
-
-  #cookiebanner {
-    max-height: 10vh;
-  }
-
-  #vampire {
-    height: 1Ovh;
-  }
-  * {
+    .parent {
+      overflow: visible;
+    }
+  
+    #cookiebanner {
+      max-height: 10vh;
+    }
+    
+    #vampire {
+      max-height: 1Ovh;
+    }
+  *{
     overflow-x: visible;
   }
 
@@ -775,7 +775,7 @@ a {
     font-size: 1.5rem;
     padding: 3px 16px;
   }
-
+  
   #buttonm {
     font-size: 2vw;
     width: 30%;
@@ -789,7 +789,7 @@ a {
     align-items: center;
     padding-bottom: 3em;
   }
-
+  
   .img {
     width: 70%;
   }
@@ -802,13 +802,14 @@ a {
     justify-content: center;
   }
 
+
   h2 {
     font-size: 3.5vw;
   }
 
   #pointParClick {
     font-size: 1.75vw;
-  }
+  } 
 
   .cout {
     font-size: 1.5vw;
@@ -826,7 +827,7 @@ a {
     align-items: flex-start;
     gap: 2em;
   }
-
+  
   .spider {
     z-index: 100;
   }
@@ -974,4 +975,6 @@ a {
       transform: translateY(-20px);
     }
   }
+  
 }
+
