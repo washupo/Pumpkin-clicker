@@ -6,6 +6,7 @@
 # Screenshots
 ![Screenshot 1 Pumpkin clicker](/image/Screenshot1.png)
 ![Screenshot 2 Pumpkin clicker](/image/Screenshot2.png)
+![Screenshot responsive Pumpkin clicker](/image/Responsive.jpg)
 
 # Instructions
 To improve our JavaScript skills, we have 5 days to create a cookie clicker game as a team. 
