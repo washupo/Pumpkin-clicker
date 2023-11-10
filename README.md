@@ -1,7 +1,7 @@
 ![Banner -CookieClicker](/image/CookieClicker%20-Banner.png)
 # Preview
 
-- [Live demo](https://washupo.github.io/pumpkin-clicker/)
+- [Live demo](https://washupo.github.io/Pumpkin-clicker/#)
 
 # Screenshots
 ![Screenshot 1 Pumpkin clicker](/image/Screenshot1.png)
